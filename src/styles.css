@@ -7,7 +7,23 @@
 }
 #sidebar {
     background-color: aqua;
+    display: grid;
+    grid-template-rows: 150px 1fr;
+}
+#defaultList {
+    background-color: azure;
+}
+#projectList {
+    background-color: brown;
 }
 #content {
     background-color: beige;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+#projectTitle {
+    background-color: black;
+}
+#projectTodos {
+    background-color: blueviolet;
 }
